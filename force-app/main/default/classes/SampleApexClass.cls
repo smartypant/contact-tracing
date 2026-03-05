@@ -4,6 +4,7 @@ public with sharing class SampleApexClass {
     }
 
     public String returnName(String firstName, String lastName) {
-        return firstName + ' ' + lastName;
+        string fullName = firstName + ' ' + lastName;
+        return fullName;
     }
 }
